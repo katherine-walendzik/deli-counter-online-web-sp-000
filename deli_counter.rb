@@ -8,8 +8,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-#method should call out (puts) the person's name along with their position in line
-#puts "Welcome, #{name}. youre are number #{num} in line."
+katz_deli << name
+  puts "Welcome, #{name}. youre are number #{katz_deli.length} in line."
 end
 
 #def now_serving(katz_deli) 
